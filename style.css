@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 1. Header Section */
+  h1 {
+    color: hotpink; 
+    border-bottom: 10px dotted purple; 
+    padding-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    color: #555;
+    font-style: italic;
+  }
+  
+  /* 3. Biography Section */
+  .bio h2 {
+    font-style: italic;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .bio p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* 4. Contact Information Section */
+  .contact-info h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  ul.contact-details {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #eeeeee; /* Light grey background */
+    border: 5px solid purple; /* Solid purple border */
+    margin: 0;
+  }
+  
+  /* Each contact detail (email, phone, website) */
+  ul.contact-details li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  ul.contact-details a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* 5. Links turn green on hover */
+  ul.contact-details a:hover {
+    color: green;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+    
+    .bio h2, .contact-info h2 {
+      font-size: 1.5em;
+    }
+  }
+  
