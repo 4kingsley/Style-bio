@@ -28,7 +28,6 @@ body {
     font-style: italic;
   }
   
-  /* 3. Biography Section */
   .bio h2 {
     font-style: italic;
     font-size: 1.8em;
@@ -40,7 +39,6 @@ body {
     color: #666;
   }
   
-  /* 4. Contact Information Section */
   .contact-info h2 {
     font-size: 1.8em;
     color: #333;
@@ -49,12 +47,11 @@ body {
   ul.contact-details {
     list-style-type: none;
     padding: 10px;
-    background-color: #eeeeee; /* Light grey background */
-    border: 5px solid purple; /* Solid purple border */
+    background-color: #eeeeee; 
+    border: 5px solid purple; 
     margin: 0;
   }
   
-  /* Each contact detail (email, phone, website) */
   ul.contact-details li {
     margin-bottom: 10px;
     font-size: 1.1em;
@@ -65,12 +62,10 @@ body {
     text-decoration: none;
   }
   
-  /* 5. Links turn green on hover */
   ul.contact-details a:hover {
     color: green;
   }
   
-  /* Responsive Design */
   @media (max-width: 600px) {
     h1 {
       font-size: 2em;
